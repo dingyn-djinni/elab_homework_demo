@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>calculator</class>
+ <widget class="QWidget" name="calculator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>276</width>
+    <height>357</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QPushButton" name="button1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>90</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>90</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button5">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>130</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button6">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>130</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button7">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>7</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button8">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>170</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>8</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button9">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>170</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>9</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button0">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>210</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonDot">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonDel">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>210</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>del</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonPlus">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>90</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonSub">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>130</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonMult">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>170</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>*</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonDevide">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>210</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>/</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonLparent">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>250</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonRparent">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>250</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonCE">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>250</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonEnter">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>250</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>enter</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>button1</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButton1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>117</x>
+     <y>196</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>75</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button2</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButton2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>177</x>
+     <y>198</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>165</x>
+     <y>128</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button3</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButton3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>219</x>
+     <y>200</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>120</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button4</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButton4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>103</x>
+     <y>225</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>80</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button5</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButton5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>160</x>
+     <y>221</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>21</x>
+     <y>265</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button6</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButton6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>209</x>
+     <y>225</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>376</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button7</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButton7()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>111</x>
+     <y>242</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>36</x>
+     <y>314</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button8</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButton8()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>166</x>
+     <y>242</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>173</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button9</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButton9()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>215</x>
+     <y>240</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>201</x>
+     <y>181</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button0</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButton0()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>136</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonDot</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButtonDot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>123</x>
+     <y>263</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>39</x>
+     <y>296</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonLparent</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButtonLparent()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>135</x>
+     <y>288</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>129</x>
+     <y>314</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonRparent</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButtonRparent()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>152</x>
+     <y>281</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>268</x>
+     <y>335</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonDel</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButtonDel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>203</x>
+     <y>261</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>279</x>
+     <y>109</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonCE</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButtonCE()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>233</x>
+     <y>280</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>351</x>
+     <y>302</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonEnter</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButtonEnter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>278</x>
+     <y>282</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>327</x>
+     <y>283</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonDevide</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButtonDevide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>275</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>331</x>
+     <y>256</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonMult</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButtonMult()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>266</x>
+     <y>235</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>348</x>
+     <y>235</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonSub</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButtonSub()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>273</x>
+     <y>217</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>327</x>
+     <y>213</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonPlus</sender>
+   <signal>clicked()</signal>
+   <receiver>calculator</receiver>
+   <slot>pressButtonPlus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>197</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>343</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>pressButton1()</slot>
+  <slot>pressButton2()</slot>
+  <slot>pressButton3()</slot>
+  <slot>pressButton4()</slot>
+  <slot>pressButton5()</slot>
+  <slot>pressButton6()</slot>
+  <slot>pressButton7()</slot>
+  <slot>pressButton8()</slot>
+  <slot>pressButton9()</slot>
+  <slot>pressButton0()</slot>
+  <slot>pressButtonLparent()</slot>
+  <slot>pressButtonRparent()</slot>
+  <slot>pressButtonPlus()</slot>
+  <slot>pressButtonSub()</slot>
+  <slot>pressButtonMult()</slot>
+  <slot>pressButtonDevide()</slot>
+  <slot>pressButtonEnter()</slot>
+  <slot>pressButtonCE()</slot>
+  <slot>pressButtonDot()</slot>
+  <slot>pressButtonDel()</slot>
+ </slots>
+</ui>
